@@ -1,0 +1,20 @@
+# Virtual Environment
+ragenv/
+venv/
+env/
+
+# Vector DB
+vectorstore/
+
+# Temp files
+temp_*
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/

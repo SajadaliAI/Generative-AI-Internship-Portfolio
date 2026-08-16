@@ -1,0 +1,10 @@
+langchain
+faiss-cpu
+transformers
+peft
+bitsandbytes
+sentence-transformers
+torch
+unsloth
+openai-whisper
+streamlit
