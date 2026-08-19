@@ -1,5 +1,3 @@
-
-```markdown
 # AI Customer Support Chatbot 🤖
 
 An NLP-based customer support chatbot built using Python and Flask. The chatbot matches user queries with relevant FAQ responses using TF-IDF and Cosine Similarity.
@@ -27,16 +25,16 @@ An NLP-based customer support chatbot built using Python and Flask. The chatbot 
 ## How It Works
 
 1. User enters a question.
-2. The question is converted into a TF-IDF vector.
-3. The chatbot compares it with FAQ questions.
-4. Cosine Similarity finds the most relevant match.
+2. The question is cleaned and converted into a TF-IDF vector.
+3. The chatbot compares the user query with FAQ questions.
+4. Cosine Similarity finds the most relevant FAQ question.
 5. The corresponding FAQ answer is returned.
 6. If no suitable match is found, a fallback response is provided.
 
 ## Installation
 
-```bash
-pip install -r requirements.txt
+### 1. Clone the Repository
 
-Run
-python app.py
+```bash
+git clone https://github.com/SajadaliAI/Generative-AI-Internship-Portfolio.git
+cd Generative-AI-Internship-Portfolio/Month-2/Task-3-Customer-Support-Chatbot
